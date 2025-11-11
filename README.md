@@ -28,10 +28,10 @@ An interactive React + Vite project that explains and demonstrates fundamental s
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/USERNAME/REPO_NAME.git
+git clone https://github.com/Hossam630/learn-search-algorithms.git
 
 # Navigate into the project
-cd REPO_NAME
+cd learn-search-algorithms
 
 # Install dependencies
 npm install
