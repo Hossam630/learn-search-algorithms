@@ -56,7 +56,7 @@ const SSTree: React.FC<SSTreeProps> = () => {
     setSelectedCity(node.value);
     setPath((prev)=>[...prev,node.value]);
   } 
-
+  console.log(selectedCity)
   return (
     <div>
       <h2>Romania State Space</h2>
