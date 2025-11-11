@@ -1,0 +1,1 @@
+export type TreeNode = {id?:number, value: string; depth: number; parentCity: string, cost?: number; };
