@@ -26,7 +26,7 @@ const nodes: NodeInput[] = [
   { id: 4, value: 3, depth: 2, parentId: 2 },
   { id: 5, value: 7, depth: 2, parentId: 2 },
   { id: 6, value: 12, depth: 2, parentId: 3 },
-  { id: 7, value: 18, depth: 2, parentId: 3 },
+  { id: 7, value: 80, depth: 2, parentId: 3 },
 ];
 const algorithmSequence: number[] = BFS(nodes[0], nodes).map((n) => n.value);
 export default function BreadthFirstSearch() {
